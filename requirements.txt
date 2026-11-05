@@ -1,0 +1,2 @@
+deeptutor[knowledge]==1.7.1
+llama-index-retrievers-bm25==0.7.1

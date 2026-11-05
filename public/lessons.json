@@ -1,0 +1,54 @@
+[
+  {
+    "id": "experiment",
+    "title": "Design a useful experiment",
+    "text": "An experiment starts with a decision and a falsifiable hypothesis. Randomly assign eligible participants to control or treatment using a stable identifier. Define a primary outcome, a measurement window and guardrail metrics before inspecting results. Count each eligible participant once. A higher observed conversion rate does not establish causality without checking assignment, sample size and uncertainty.",
+    "question": "Which choice should happen before inspecting the results?",
+    "choices": [
+      "Choose the winning variant",
+      "Define the outcome and guardrails",
+      "Drop inconvenient participants"
+    ],
+    "answer": 1,
+    "explanation": "Predefine the outcome and guardrails to reduce cherry-picking."
+  },
+  {
+    "id": "evaluation",
+    "title": "Evaluate an AI workflow",
+    "text": "Separate task success, groundedness, latency and cost. A response can be well formed but factually wrong. Compare a candidate with a baseline on the same held-out scenarios. Include negative controls and cases that should abstain. Human ratings require a clear rubric. Synthetic examples are useful for debugging but do not establish customer performance.",
+    "question": "What does a perfect score on a tiny synthetic set establish?",
+    "choices": [
+      "Customer readiness",
+      "A benefit over every baseline",
+      "Performance on that specific fixture set"
+    ],
+    "answer": 2,
+    "explanation": "A fixture score is limited to those cases and the stated metric."
+  },
+  {
+    "id": "sources",
+    "title": "Keep evidence attached",
+    "text": "Retrieval returns source passages that may help answer a question. An exact quote match verifies that words exist in a source; it does not establish that the source is true or that the quote supports a conclusion. Keep source identifiers and show the passage. If the available material does not answer the question, say the evidence is missing instead of inventing an explanation.",
+    "question": "What does an exact quote match verify?",
+    "choices": [
+      "The quoted words exist in the source",
+      "The claim is necessarily true",
+      "The source is independent"
+    ],
+    "answer": 0,
+    "explanation": "Quote presence and factual support are separate checks."
+  },
+  {
+    "id": "discovery",
+    "title": "Turn interviews into decisions",
+    "text": "A customer observation is evidence, while a product opportunity is an interpretation. Preserve what a person said separately from your hypothesis. Prioritize with explicit assumptions about reach, impact, confidence and effort. Test the riskiest assumption with the smallest useful experiment, then decide whether to continue, change direction or stop.",
+    "question": "Which item is an interpretation rather than a direct observation?",
+    "choices": [
+      "A recorded interview quote",
+      "A hypothesis about a product opportunity",
+      "A timestamp in a transcript"
+    ],
+    "answer": 1,
+    "explanation": "An opportunity hypothesis interprets the evidence and needs a test."
+  }
+]

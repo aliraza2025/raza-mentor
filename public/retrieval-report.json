@@ -1,0 +1,39 @@
+{
+  "engine": "DeepTutor 1.7.1 BM25 component",
+  "networkBlocked": true,
+  "cases": [
+    {
+      "query": "randomly assign participants experiment",
+      "expected": "experiment",
+      "topSource": "experiment",
+      "passed": true
+    },
+    {
+      "query": "latency cost held-out negative controls",
+      "expected": "evaluation",
+      "topSource": "evaluation",
+      "passed": true
+    },
+    {
+      "query": "exact quote source evidence",
+      "expected": "sources",
+      "topSource": "sources",
+      "passed": true
+    },
+    {
+      "query": "customer interview hypothesis prioritize",
+      "expected": "discovery",
+      "topSource": "discovery",
+      "passed": true
+    },
+    {
+      "query": "volcano tectonic lava",
+      "expected": null,
+      "topSource": null,
+      "passed": true
+    }
+  ],
+  "passed": 5,
+  "total": 5,
+  "limits": "Five original fixture questions; lexical source retrieval only. No learning-outcome or generative-model benchmark."
+}

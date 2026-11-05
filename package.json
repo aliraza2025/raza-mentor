@@ -1,0 +1,17 @@
+{
+  "name": "raza-mentor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "author": "Ali Raza",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "Raza Mentor \u2014 Study the source. Test your understanding.",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "test": "node --test"
+  }
+}
